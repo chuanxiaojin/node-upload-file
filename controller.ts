@@ -32,7 +32,7 @@ export default class FileUploadController {
     }
 
     /**
-     * 上传至京东文件系统
+     * 上传至文件系统
      * @param filePath
      */
     public static async upload (filePath: any, keycode: string) {

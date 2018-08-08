@@ -36,7 +36,7 @@ export const existsAndMkdir = async () => {
  */
 export const removeImage = async (filePath: string) => {
     await fs.unlinkSync(filePath)
-    console.log(`图片: ${path.basename(filePath)} 已经成功上传至京东文件系统，node 服务器下已被清除`);
+    console.log(`图片: ${path.basename(filePath)} 已经成功上传至文件系统，node 服务器下已被清除`);
 }
 
 /**
